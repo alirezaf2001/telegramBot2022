@@ -17,6 +17,10 @@ def image(message):
     img = open("picture.png", "rb")
     bot.send_photo(message.chat.id, img)
 
+@bot.message_handler(commands=["sogand"])
+def sogand(message):
+    bot.send_message(message.chat.id, "عه سلاممم کونییییی😂🍆🍆🍆🍆")
+
 while True:
     try:
         bot.polling()
