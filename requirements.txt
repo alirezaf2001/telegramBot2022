@@ -1,3 +1,5 @@
 pytelegrambotapi
 gtts
 praw
+requests
+Pillow
