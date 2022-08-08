@@ -14,7 +14,7 @@ def hello(message):
 
 @bot.message_handler(commands=["img"])
 def image(message):
-    img = open("Images\\NoBitches.png", "rb")
+    img = open("picture.png", "rb")
     bot.send_photo(message.chat.id, img)
 
 while True:
