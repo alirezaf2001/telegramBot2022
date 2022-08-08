@@ -5,8 +5,8 @@ import requests
 from io import BytesIO
 
 
-# TOKEN = "5439725443:AAHwW8XYKyiJd8wyQQlwbIOozTNxjpecBTI"      #this is the main bot
-TOKEN = "5523662071:AAGhUX6dWh7PSeBz4GfkYbZNMQPlSlAxmxc"        #this is the test bot
+TOKEN = "5439725443:AAHwW8XYKyiJd8wyQQlwbIOozTNxjpecBTI"      #this is the main bot
+# TOKEN = "5523662071:AAGhUX6dWh7PSeBz4GfkYbZNMQPlSlAxmxc"        #this is the test bot
 bot = telebot.TeleBot(TOKEN)
 
 isStickerToPhoto = False
